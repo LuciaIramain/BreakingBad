@@ -10,6 +10,10 @@ https://github.com/LuciaIramain/BreakingBad.git
 
 API = https://breaking-bad-quotes.herokuapp.com/v1/quotes
 
-#### Autor
+#### Puede visualizar el proyecto
+
+https://frases-debreakingbad.netlify.app/
+
+##### Autor
 
 Lucía Iramain
