@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState, useEffect } from "react";
 import './app.css';
 import Frase from "./components/Frase";
 
@@ -11,6 +11,10 @@ function App() {
     const frase = await api.json();
     guardarFrase(frase[0]);
   }
+
+  useEffect( () => {
+    consultarAPI()
+  }, []);
 
   return (
     <div className="contenedor">
